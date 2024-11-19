@@ -9,7 +9,7 @@ spec:
   project: default
   source:
     path: upbound/provider-aws/config
-    repoURL: https://github.com/jonashackt/crossplane-argocd
+    repoURL: https://github.com/Mon-143/crossplane-argocd
     targetRevision: HEAD
   destination:
     namespace: default
