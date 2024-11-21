@@ -10,13 +10,13 @@ spec:
   source:
     repoURL: https://github.com/Mon-143/crossplane-argocd
     targetRevision: HEAD
-    path: infrastructure
+    path: infrastructure/s3
   destination:
     namespace: default
     server: https://kubernetes.default.svc
   syncPolicy:
     automated:
-      prune: true    
+      prune: true 
     retry:
       limit: 5
       backoff:
